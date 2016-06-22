@@ -13,8 +13,7 @@ public class GildedRose {
                     && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
                 if (items[i].quality > 0) {
                 	if(items[i].quality > 10 && items[i].name.equals("Sulfuras, New Product"))
-					{						
-                		System.out.println("--------------"+items[i].name);
+					{						                	
 						items[i].quality = items[i].quality - 1;
 					}					
                 	if(items[i].name.equals("Conjured Mana Cake")){
